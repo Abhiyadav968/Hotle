@@ -11,6 +11,26 @@
 
 a {
     font-size: 18px;
+    color: rgba(0, 0, 0, 0.492) !important;
+}
+
+.logo-img {
+    width: 100%;
+    height: 60px;
+}
+
+.btn-img {
+    width: 30px;
+    background-color: none;
+}
+
+.collapse {
+    margin-left: 20%;
+}
+
+.navbar-toggler {
+    /* color: black; */
+    font-size: 30px;
 }
 
 span {
@@ -19,16 +39,6 @@ span {
 
 .para-in {
     font-size: 18px;
-}
-
-.nav-item:hover {
-    background-color: red;
-    border-radius: 4px;
-
-}
-
-.nav-item:visited {
-    background-color: red;
 }
 
 .m-paira {
@@ -89,22 +99,4 @@ span {
 }
 
 
-@media (max-width:768px) {
-
-    nav {
-        background-color: red;
-    }
-
-    .logo-img {
-        text-align: center;
-        margin-left: 22%;
-    }
-
-    .para-in {
-        text-align: center;
-    }
-
-    .dropdown-menu {
-        left: 400px;
-    }
-}
+@media (max-width:768px) {}
