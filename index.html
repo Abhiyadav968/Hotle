@@ -16,29 +16,11 @@
 </head>
 
 <body>
-  <!-- <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-10 p-2 pt-3 bg-dark text-white">
-        <p class="para-in">Yes, We are Open! Stay safe in sanitized premises.</p>
-      </div>
-      <div class="col-sm-2 p-2 pt-3 bg-dark text-white"><span
-          style="background-color: #ff4136; padding: 5px 10px; border-radius: 3px;"><i class="fa fa-phone"
-            aria-hidden="true">+91-98788-93211</i></span>
-          </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-6 text-white p-4 "><img src="./img/logo.png" alt="" class="logo-img" width="50%" height="80px">
-    </div>
-    <div class="col-sm-6   text-white pt-4"> </div>
-  </div>
-  </nav>
-  </div>
-  </div> -->
   <nav class="navbar navbar-expand-sm  ">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" class="logo-img"></a>
-      <button class="navbar-toggler h1 bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <button class="navbar-toggler h1 bg-secondary" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"><img src="./img/button.png" class="btn-img"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -59,6 +41,64 @@
               <li><a class="dropdown-item" href="#">Another link</a></li>
               <li><a class="dropdown-item" href="#">A third link</a></li>
             </ul>
+          </li>
+          <li class="nav-item">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Login
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login Page</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <label for="name my-2">Name</label>
+                    <input type="text" class="form-control" placeholder="Enter your name">
+                    <label for="name my-2">Email</label>
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                    <!-- main -->
+                    <form class="row g-3">
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Enter your Address...">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Bihar</option>
+                          <option selected>Assam</option>
+                          <option selected>Nagaland</option>
+                          <option selected>Manipur</option>
+                          <option selected>Tripura</option>
+                        </select>
+                      </div>
+                    </form>
+                    <!-- main -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Login</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
